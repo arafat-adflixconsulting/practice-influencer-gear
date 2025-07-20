@@ -130,7 +130,6 @@ nav a {
 .products-section {
     max-width: 1140px;
     margin: 20px auto;
-    border: 2px solid red;
 }
 
 
@@ -184,7 +183,6 @@ nav a {
     align-items: center;
     max-width: 1240px;
     margin: 70px auto;
-    border: 2px solid purple;
     gap: 96px;
  }
 
@@ -212,4 +210,28 @@ nav a {
     color: white;
     border: none;
     margin-top: 16px;
+ }
+
+ footer{
+    margin: 20px auto;
+    color: white;
+    background: black;
+    height: 250px;
+    text-align: center;
+ }
+
+ footer h2{
+    font-family: Poppins;
+    font-size: 25px;
+    font-family: 700;
+ }
+
+ footer p{
+    font-family: Poppins;
+    font-size: 16px;
+    font-family: 400;
+ }
+
+ footer .footer-content{
+    padding: 30px;
  }
