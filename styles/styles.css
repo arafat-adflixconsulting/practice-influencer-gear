@@ -272,8 +272,17 @@ footer .footer-content {
   }
 
   .brand-logo {
-    max-width: auto;
-    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 100%;
+    gap: 10px;
+    margin: 10px;
+    justify-content: center;
+    justify-items: center;
+  }
+
+  .brand-logo img {
+    max-width: 100%;
   }
 
   .product-collection {
